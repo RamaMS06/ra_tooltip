@@ -1,24 +1,24 @@
-# RATooltip 🎯
+# RATooltip
 
 A highly customizable and feature-rich tooltip widget for Flutter applications with smooth animations, smart positioning, and multiple trigger modes.
 
-## Preview 📱
+## Preview
 
 ![RATooltip Demo](assets/readme/ra_tooltip.gif)
 
-## Features ✨
+## Features
 
-- 🎯 **Multiple Trigger Modes**: `tap` and `hold` (500ms duration)
-- 📍 **Smart Positioning**: Automatic edge detection with 4 positions (top, bottom, left, right)
-- 🎨 **Highly Customizable**: Colors, messages, styling, padding, and box shadows
-- ✨ **Smooth Animations**: 150ms duration with easeOutCubic curves
-- 🔄 **Auto-Adjustment**: Automatically repositions when hitting screen edges
-- 📱 **Cross-Platform**: Works on Android, iOS, macOS, Linux, Windows, and Web
-- 🎭 **Custom Content**: Support for both text messages and custom widgets
-- 🎪 **Arrow Indicators**: Animated arrows pointing to target widgets
-- 🚀 **Performance Optimized**: Efficient rendering with minimal rebuilds
+- **Multiple Trigger Modes**: `tap` and `hold` with 500ms duration
+- **Smart Positioning**: Automatic edge detection with 4 positions (top, bottom, left, right)
+- **Highly Customizable**: Colors, messages, styling, padding, and box shadows
+- **Smooth Animations**: 150ms duration with easeOutCubic curves
+- **Auto-Adjustment**: Automatically repositions when hitting screen edges
+- **Cross-Platform**: Works on Android, iOS, macOS, Linux, Windows, and Web
+- **Custom Content**: Support for both text messages and custom widgets
+- **Arrow Indicators**: Animated arrows pointing to target widgets
+- **Performance Optimized**: Efficient rendering with minimal rebuilds
 
-## Installation 📦
+## Installation
 
 Add `ra_tooltip` to your `pubspec.yaml`:
 
@@ -43,7 +43,7 @@ Then run:
 flutter pub get
 ```
 
-## Quick Start 🚀
+## Quick Start
 
 Import the package:
 
@@ -75,7 +75,7 @@ RATooltip(
 )
 ```
 
-## Usage Examples 📋
+## Usage Examples
 
 ### 1. Tap Trigger (Default)
 
@@ -200,7 +200,7 @@ RATooltip(
 )
 ```
 
-## API Reference 📚
+## API Reference
 
 ### RATooltip Properties
 
@@ -231,7 +231,7 @@ RATooltip(
 - `left` - To the left of target widget
 - `right` - To the right of target widget
 
-## Smart Positioning 🧠
+## Smart Positioning
 
 RATooltip automatically detects screen edges and repositions itself to ensure it's always visible:
 
@@ -240,32 +240,32 @@ RATooltip automatically detects screen edges and repositions itself to ensure it
 - Arrows automatically adjust to point to the correct target location
 - Smooth transitions between position changes
 
-## Animation Details 🎬
+## Animation Details
 
 - **Duration**: 150ms for smooth, responsive feel
 - **Curve**: `Curves.easeOutCubic` for natural motion
 - **Scale Animation**: Tooltips scale in/out from the target widget
 - **Position Transitions**: Smooth repositioning when screen edges are detected
 
-## Platform Support 🌐
+## Platform Support
 
 RATooltip works seamlessly across all Flutter-supported platforms:
 
-- ✅ **Android** (API 16+)
-- ✅ **iOS** (iOS 9.0+)  
-- ✅ **macOS** (macOS 10.11+)
-- ✅ **Linux**
-- ✅ **Windows** (Windows 7+)
-- ✅ **Web** (All modern browsers)
+- **Android** (API 16+)
+- **iOS** (iOS 9.0+)  
+- **macOS** (macOS 10.11+)
+- **Linux**
+- **Windows** (Windows 7+)
+- **Web** (All modern browsers)
 
-## Performance 🚀
+## Performance
 
 - **Efficient Rendering**: Uses `RepaintBoundary` for optimal performance
 - **Minimal Rebuilds**: Smart state management reduces unnecessary rebuilds  
 - **Memory Optimized**: Proper disposal of timers and animation controllers
 - **Gesture Optimization**: Efficient gesture detection with minimal overhead
 
-## Testing 🧪
+## Testing
 
 The package includes comprehensive tests:
 
@@ -277,7 +277,7 @@ flutter test
 flutter test integration_test/
 ```
 
-## Example App 📱
+## Example App
 
 Check out the comprehensive example app in the `example/` directory:
 
@@ -293,7 +293,7 @@ The example demonstrates:
 - Edge detection
 - Performance optimization
 
-## Contributing 🤝
+## Contributing
 
 Contributions are welcome! Please feel free to submit a Pull Request. For major changes, please open an issue first to discuss what you would like to change.
 
@@ -309,21 +309,22 @@ Contributions are welcome! Please feel free to submit a Pull Request. For major 
 8. Push to the branch: `git push origin feature/amazing-feature`
 9. Open a Pull Request
 
-## License 📄
+## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-## Changelog 📝
+## Changelog
 
 See [CHANGELOG.md](CHANGELOG.md) for a detailed list of changes and versions.
 
-## Support 💬
+## Support
 
-If you like this package, please give it a ⭐ on [GitHub](https://github.com/RamaMS06/ra_tooltip)!
+If you like this package, please give it a star on [GitHub](https://github.com/RamaMS06/ra_tooltip)!
 
 For issues, feature requests, or questions:
-- 🐛 [Report bugs](https://github.com/RamaMS06/ra_tooltip/issues)
-- 💡 [Request features](https://github.com/RamaMS06/ra_tooltip/issues)
-- 📧 Contact: [Your Email]
+- [Report bugs](https://github.com/RamaMS06/ra_tooltip/issues)
+- [Request features](https://github.com/RamaMS06/ra_tooltip/issues)
 
 ---
+
+Made with care by [Rama Muhammad S](https://github.com/RamaMS06)
