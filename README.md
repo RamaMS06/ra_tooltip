@@ -327,5 +327,3 @@ For issues, feature requests, or questions:
 - 📧 Contact: [Your Email]
 
 ---
-
-Made with ❤️ by [Rama Muhammad S](https://github.com/RamaMS06)
